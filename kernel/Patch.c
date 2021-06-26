@@ -1315,7 +1315,9 @@ void DoPatches( char *Buffer, u32 Length, u32 DiscOffset )
 				}
 
 				DOLMinOff -= 0x80000000;
+				DOLMinOff -= 0x80607470;
 				DOLMaxOff -= 0x80000000;
+
 
 				//if (PSOHack == PSO_STATE_LOAD)
 				//{
@@ -1473,7 +1475,7 @@ void DoPatches( char *Buffer, u32 Length, u32 DiscOffset )
 	piReg = 0;
 
 	sync_after_write(Buffer, Length);
-
+	DOLMinOff = 0x00003100;
 	Buffer = (char*)DOLMinOff;
 	Length = DOLMaxOff - DOLMinOff;
 
