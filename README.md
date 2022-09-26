@@ -1,5 +1,7 @@
 ### Nintendont-2PMod-Fix
-A patched version of Nintendont to work with the 2P-ShdTH v2.0+ project
+A patched version of Nintendont to work with the 2P-ShdTH project.
+
+***ONLY FOR VERSIONS 2.0 - 2.2***!!!
 
 
 ### Quick Installation:
